@@ -226,9 +226,13 @@ const createWindow = () => {
   const bingUrl = `https://edgeservices.bing.com/edgediscover/query?&${
     isDarkMode ? 'dark' : 'light'
   }schemeovr=1&FORM=SHORUN&udscs=1&udsnav=1&setlang=${locale}&features=udssydinternal&clientscopes=windowheader,coauthor,chat,&udsframed=1`
-
   mainWindow.loadURL(bingUrl, {
     userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.81',
+  })
+  // Open links in default browser
+  mainWindow.webContents.setWindowOpenHandler(({ url }) => {
+    shell.openExternal(url)
+    return { action: 'deny' }
   })
   // Login
   mainWindow.webContents.on('will-redirect', (event, url) => {
