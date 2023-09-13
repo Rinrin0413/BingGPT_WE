@@ -1,3 +1,9 @@
+## What is this fork?
+
+I changed the user agent to one of my environment to release the per-session limit.
+
+---
+
 <p align="center">
   <img width="180" src="./icon.png" alt="BingGPT">
   <h1 align="center">BingGPT</h1>
