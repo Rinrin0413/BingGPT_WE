@@ -44,8 +44,8 @@ const createWindow = () => {
     title: 'BingGPT',
     backgroundColor: isDarkMode ? '#1c1c1c' : '#eeeeee',
     icon: 'icon.png',
-    width: 601,
-    height: 800,
+    width: 832,
+    height: 948,
     titleBarStyle: 'hidden',
     titleBarOverlay: true,
     titleBarOverlay: {
