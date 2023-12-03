@@ -2,11 +2,24 @@
 
 I changed the user agent to one of my environment to release the per-session limit.
 
+### Postscript (2023/12/4)
+
+I noticed it stopped working.  
+So i tried various approaches but i could not fix the problem with my knowledge.
+
+Eventually, I decided to load the [Bing AI](https://bing.com/search?q=Bing+AI&showconv=1) instead of the [Bing Discover](https://edgeservices.bing.com/edgediscover/query).
+
+- Bing AI: https://bing.com/search?q=Bing+AI&showconv=1
+- Bing Discover: https://edgeservices.bing.com/edgediscover/query
+- Copilot with Bing Chat: https://edgeservices.bing.com/edgesvc/chat
+
+<br />
+
 ---
 
 <p align="center">
   <img width="180" src="./icon.png" alt="BingGPT">
-  <h1 align="center">BingGPT</h1>
+  <h1 align="center">BingGPT (fork)</h1>
   <p align="center">Desktop application of new Bing's AI-powered chat</p>
 </p>
 
@@ -14,12 +27,12 @@ I changed the user agent to one of my environment to release the per-session lim
   <a href="https://opensource.org/licenses/Apache-2.0">
     <img alt="License" src="https://img.shields.io/badge/license-Apache_2.0-green">
   </a>
-  <a href="https://github.com/dice2o/BingGPT/releases">
+  <!-- <a href="https://github.com/dice2o/BingGPT/releases">
     <img alt="Downloads" src="https://img.shields.io/github/downloads/dice2o/BingGPT/total?color=blue">
-   </a>
+   </a> -->
 </p>
 
-## Install
+<!-- ## Install
 
 ### Windows
 
@@ -38,9 +51,9 @@ I changed the user agent to one of my environment to release the per-session lim
 - [BingGPT-0.3.7-linux-x64.deb](https://github.com/dice2o/BingGPT/releases/download/v0.3.7/BingGPT-0.3.7-linux-x64.deb)
 - [BingGPT-0.3.7-linux-arm64.deb](https://github.com/dice2o/BingGPT/releases/download/v0.3.7/BingGPT-0.3.7-linux-arm64.deb)
 - [BingGPT-0.3.7-linux-x64.rpm](https://github.com/dice2o/BingGPT/releases/download/v0.3.7/BingGPT-0.3.7-linux-x64.rpm)
-- [BingGPT-0.3.7-linux-arm64.rpm](https://github.com/dice2o/BingGPT/releases/download/v0.3.7/BingGPT-0.3.7-linux-arm64.rpm)
+- [BingGPT-0.3.7-linux-arm64.rpm](https://github.com/dice2o/BingGPT/releases/download/v0.3.7/BingGPT-0.3.7-linux-arm64.rpm) -->
 
-## Usage
+<!-- ## Usage
 
 - Sign in to your Microsoft account
 - Start chatting
@@ -51,7 +64,7 @@ I changed the user agent to one of my environment to release the per-session lim
 
 ```
 sudo xattr -d com.apple.quarantine /Applications/BingGPT.app
-```
+``` -->
 
 ## Features
 
@@ -80,7 +93,8 @@ sudo xattr -d com.apple.quarantine /Applications/BingGPT.app
 
 ## Screenshot
 
-<img width="601" src="./screenshot.png" alt="BingGPT Screenshot">
+<!-- <img width="601" src="./screenshot.png" alt="BingGPT Screenshot"> -->
+<img width="601" src="./screenshot2.png" alt="BingGPT Screenshot (Bing AI version)">
 
 ## License
 
