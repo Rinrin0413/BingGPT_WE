@@ -1,8 +1,12 @@
 ## What is this fork?
 
+**A. Works on my machine Edition**
+
+### Why fork?
+
 I changed the user agent to one of my environment to release the per-session limit.
 
-### Postscript (2023/12/4)
+#### Postscript (2023/12/4)
 
 I noticed it stopped working.  
 So i tried various approaches but i could not fix the problem with my knowledge.
@@ -19,8 +23,8 @@ Eventually, I decided to load the [Bing AI](https://bing.com/search?q=Bing+AI&sh
 
 <p align="center">
   <img width="180" src="./icon.png" alt="BingGPT">
-  <h1 align="center">BingGPT (fork)</h1>
-  <p align="center">Desktop application of new Bing's AI-powered chat</p>
+  <h1 align="center">BingGPT (Works on my machine Edition)</h1>
+  <p align="center">Desktop application of new Bing's AI-powered chat that works on my machine</p>
 </p>
 
 <p align="center">
