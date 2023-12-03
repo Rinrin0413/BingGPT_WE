@@ -233,7 +233,7 @@ const createWindow = () => {
     return { action: 'deny' }
   })
   // Login
-  mainWindow.webContents.on('will-redirect', (event, url) => {
+  /*mainWindow.webContents.on('will-redirect', (event, url) => {
     if (
       url.indexOf('https://edgeservices.bing.com/edgesvc/urlredirect') !== -1
     ) {
@@ -247,7 +247,7 @@ const createWindow = () => {
           }, 3000)
         })
     }
-  })
+  })*/
   // Modify Content Security Policy
   mainWindow.webContents.session.webRequest.onHeadersReceived(
     (details, callback) => {

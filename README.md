@@ -57,7 +57,7 @@ sudo xattr -d com.apple.quarantine /Applications/BingGPT.app
 
 - Chat with new Bing without installing Microsoft Edge or browser plugins
 - Export full conversation to Markdown, PNG or PDF
-- Customize appearance (theme & font size)
+- Customize appearance (<!-- theme &  -->font size)
 - Keyboard shortcuts
 - Multi-platform
 
