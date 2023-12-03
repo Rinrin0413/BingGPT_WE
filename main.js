@@ -41,7 +41,7 @@ const createWindow = () => {
       : false
   // Create window
   const mainWindow = new BrowserWindow({
-    title: 'BingGPT',
+    title: 'BingGPT - Works on my machine Edition',
     backgroundColor: isDarkMode ? '#1c1c1c' : '#eeeeee',
     icon: 'icon.png',
     width: 832,
