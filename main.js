@@ -202,24 +202,24 @@ const createWindow = () => {
           })
         },
       },
-      {
-        type: 'separator',
-        visible: parameters.selectionText.trim().length === 0,
-      },
-      {
-        label: 'Feedback',
-        visible: parameters.selectionText.trim().length === 0,
-        click: () => {
-          shell.openExternal('https://github.com/dice2o/BingGPT/issues')
-        },
-      },
-      {
-        label: 'BingGPT v0.3.7',
-        visible: parameters.selectionText.trim().length === 0,
-        click: () => {
-          shell.openExternal('https://github.com/dice2o/BingGPT/releases')
-        },
-      },
+      // {
+      //   type: 'separator',
+      //   visible: parameters.selectionText.trim().length === 0,
+      // },
+      // {
+      //   label: 'Feedback',
+      //   visible: parameters.selectionText.trim().length === 0,
+      //   click: () => {
+      //     shell.openExternal('https://github.com/dice2o/BingGPT/issues')
+      //   },
+      // },
+      // {
+      //   label: 'BingGPT v0.3.7',
+      //   visible: parameters.selectionText.trim().length === 0,
+      //   click: () => {
+      //     shell.openExternal('https://github.com/dice2o/BingGPT/releases')
+      //   },
+      // },
     ],
   })
   // Load Bing
