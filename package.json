@@ -1,9 +1,10 @@
 {
-  "name": "binggpt",
-  "productName": "BingGPT",
-  "version": "0.3.7",
+  "name": "binggpt-we",
+  "productName": "BingGPT (Works on my machine Edition)",
+  "version": "0.3.7-we.2",
   "description": "AI-powered copilot",
   "author": "dice2o",
+  "contributors": [ "Rinrin.rs <rinrin0413.valley@gmail.com> (https://rinrin.pages.dev)" ],
   "license": "Apache-2.0",
   "main": "main.js",
   "scripts": {
