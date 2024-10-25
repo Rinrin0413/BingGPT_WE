@@ -4,18 +4,26 @@
 
 ### Why fork?
 
-I changed the user agent to one of my environment to release the per-session limit.
+~~I changed the user agent to one of my environment to release the per-session limit.~~  
+Now, there is probably no longer per-session limit.
 
 #### Postscript (2023/12/4)
 
-I noticed it stopped working.  
-So i tried various approaches but i could not fix the problem with my knowledge.
+I noticed this application stopped working.  
+So I tried various approaches but I could not fix the problem with my knowledge.
 
 Eventually, I decided to load the [Bing AI](https://bing.com/search?q=Bing+AI&showconv=1) instead of the [Bing Discover](https://edgeservices.bing.com/edgediscover/query).
 
 - Bing AI: https://bing.com/search?q=Bing+AI&showconv=1
 - Bing Discover: https://edgeservices.bing.com/edgediscover/query
 - Copilot with Bing Chat: https://edgeservices.bing.com/edgesvc/chat
+
+#### Postscript (2024/10/25)
+
+An unverifiable Cloudflare CAPTCHA is now imposed at the start of the application.  
+Loading the URL of [Microsoft Copilot](https://copilot.microsoft.com) fixes the problem so I updated the URL to that.
+
+- Microsoft Copilot: https://copilot.microsoft.com
 
 <br />
 
@@ -98,7 +106,8 @@ sudo xattr -d com.apple.quarantine /Applications/BingGPT.app
 ## Screenshot
 
 <!-- <img width="601" src="./screenshot.png" alt="BingGPT Screenshot"> -->
-<img width="601" src="./screenshot2.png" alt="BingGPT Screenshot (Bing AI version)">
+<!-- <img width="601" src="./screenshot2.png" alt="BingGPT Screenshot (Bing AI version)"> -->
+<img width="601" src="./screenshot3.png" alt="BingGPT Screenshot (Microsoft Copilot version)">
 
 ## License
 
